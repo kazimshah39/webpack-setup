@@ -11,14 +11,25 @@ npm run build
 running any server
 
 3)
-## install webpack, webpack-cli and webpack-dev-server
-## globally on android, otherwise add
-## them to dependencies like below
+## install the below packages globally
+* webpack
+* webpack-cli
+* webpack-dev-server
+* react
+* react-dom
+* babel-loader
+* @babel/core
+* @babel/preset-react
+* style-loader
+* css-loader
+* postcss
+* postcss-loader
+* postcss-preset-env
+* mini-css-extract-plugin
+* html-webpack-plugin
+* clean-webpack-plugin
+* webpack-manifest-plugin
 
-"dependencies": {
-"webpack": "^x.y.z",
-"webpack-cli": "^x.y.z",
-"webpack-dev-server": "^x.y.z"
-}
+npm i -g webpack webpack-cli webpack-dev-server react react-dom babel-loader @babel/core @babel/preset-react style-loader css-loader postcss postcss-loader postcss-preset-env mini-css-extract-plugin html-webpack-plugin clean-webpack-plugin webpack-manifest-plugin
 
 4)

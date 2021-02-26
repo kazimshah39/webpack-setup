@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import './style.css'
+import React from 'cp/react'
+import ReactDOM from 'cp/react-dom'
 
 function ExampleComponent() {
   return (
     <div>
-    <h1>Hello from Main.jsxt</h1>
+    <h1>Hello from Main.jsxu</h1>
     </div>
   )
 }
